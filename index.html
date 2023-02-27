@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cost Basis Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="output">
+            <p>Cost Basis </p>
+            <h3></h3>
+            <img src="./img/favicon.svg" alt="">
+        </div>
+
+        <div class="input-wrapper">
+            <p>Total Invested </p>
+            <input type="number" id="original-capital" placeholder="$0" min="0">
+        </div>
+        <div class="input-wrapper">
+            <p>Number of Shares</p>
+            <input type="number" id="original-shares" placeholder="0" min="0">
+        </div>
+        <div class="input-wrapper">
+            <p>Share Price </p>
+            <input type="number" id="share-price" placeholder="$0" min="0">
+        </div>
+        <div class="input-wrapper">
+            <p>Amount to Invest </p>
+            <input type="number" id="new-cash" placeholder="$0" min="0">
+        </div>
+        <button class="reset" >Reset</button>
+        <button class="calculate">Calculate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
