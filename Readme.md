@@ -18,3 +18,4 @@
 - Enter cost basis
 - Click calculate
 
+[Click here view live page](https://anwar720.github.io/Cost-Basis-Calculator/)
